@@ -1,0 +1,131 @@
+
+
+.heroSection{
+    width:100%;
+    height: 100vh;
+    background-image: url("./assets/hero1.jpg");
+    background-size: cover;
+    background-position: center;
+    padding:0.1px;
+    overflow: hidden;
+
+}
+
+.heroSection .container{
+    display: flex;
+    align-items: center;
+}
+
+.heroTextCont{
+    color:var(--color-primary);
+    max-width: 500px;
+}
+
+.heroTextCont h1{
+    line-height: 110%;
+    margin-bottom: 16px;
+}
+
+.heroTextCont a{
+    text-decoration: none;
+    color: var(--color-primary);
+    padding:8px 16px;
+    display: inline-block;
+    border:2px solid var(--color-primary);
+    border-radius: 8px;
+    margin-top: 16px;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+.heroTextCont a:hover{
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+}
+
+
+
+.product_grid{
+    width:100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 32px 8px;
+}
+
+@media screen and (min-width:768px) {
+    .product_grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media screen and (min-width:992px) {
+    .product_grid{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+.product_grid .item{
+    width:100%;
+    overflow: hidden;
+}
+
+.product_grid .item .img_cont{
+    width:100%;
+}
+
+.product_grid .item img{
+    width:100%;
+    height: auto;
+    display: block;
+}
+
+/* .product_grid .item .itemTitle{
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: .8px;
+} */
+.product_grid .item .price_cont{
+    font-size: 14px;
+}
+.product_grid .item .dollar_sign{
+    margin-right: 1px;
+}
+.product_grid .item .add_to_cart{
+    border:0;
+    padding:8px 16px;
+    background-color: var(--color-);
+    color:var(--color-secondary);
+    border-radius: var(--radius-primary);
+    font-weight: normal;
+    border:var(--color-secondary) solid 1px;
+    margin-top: var(--space-3);
+    cursor: pointer;
+    z-index: 1;
+    transition: .2s;
+
+}
+.product_grid .item .add_to_cart:hover{
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}
+.product_grid .item .overlay{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    display: none;
+    justify-content: right;
+    padding:8px;
+    border-radius: 12px 12px 0 0;
+}
+.product_grid .item img:hover + .overlay{
+    display: flex;
+}
+.product_grid .item .overlay:hover{
+    display: flex;
+}
+.product_grid .item .item_footer_row{
+    justify-content: space-between;
+    align-items: baseline;
+}
