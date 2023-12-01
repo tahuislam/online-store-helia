@@ -3,7 +3,7 @@
 .heroSection{
     width:100%;
     height: 100vh;
-    background-image: url("./assets/hero1.jpg");
+    background-image: url("./assets/hero2.jpg");
     background-size: cover;
     background-position: center;
     padding:0.1px;
@@ -23,7 +23,7 @@
 
 .heroTextCont h1{
     line-height: 110%;
-    margin-bottom: 16px;
+    margin-bottom: var(--space-4);
 }
 
 .heroTextCont a{
@@ -33,7 +33,7 @@
     display: inline-block;
     border:2px solid var(--color-primary);
     border-radius: 8px;
-    margin-top: 16px;
+    margin-top: var(--space-3);
     transition: 0.2s;
     font-weight: bold;
 }
