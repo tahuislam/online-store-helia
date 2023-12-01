@@ -7,7 +7,7 @@ const products = [
     }, {
         id:2,
         title:"Fuerta Uiolo",
-        img:"../assets/productImages/p11.jpg",
+        img:"/src/assets/productImages/p11.jpg",
         price: 3453
     }, {
         id:3,
