@@ -2,12 +2,12 @@ const products = [
     {
         id:1,
         title:"Odere Chair II",
-        img:"./assets/productImages/p1.jpg",
+        img:"../assets/productImages/p1.jpg",
         price: 2344
     }, {
         id:2,
         title:"Fuerta Uiolo",
-        img:"./assets/productImages/p11.jpg",
+        img:"../assets/productImages/p11.jpg",
         price: 3453
     }, {
         id:3,
