@@ -2,7 +2,7 @@ const products = [
     {
         id:1,
         title:"Odere Chair II",
-        img:"../assets/productImages/p1.jpg",
+        img:"/public/productImages/p1.jpg",
         price: 2344
     }, {
         id:2,
