@@ -64,7 +64,7 @@ export default function App() {
                 <div className="item_footer">
                   <div className="item_footer_row"><div className="itemTitle">{item.title}</div>
                     <div className="price_cont"><span className="dollar_sign">$</span>{item.price}<span className="price"></span></div>
-                    <button className="add_to_cart" onClick={() => updateCart("add",item)}>Add To Cart</button>
+                    <button className="add_to_cart" onClick={() => updateCart("add",item)}>Add To Bag</button>
                   </div>
                 </div>
               </div>
