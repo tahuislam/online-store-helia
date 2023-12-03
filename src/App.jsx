@@ -40,10 +40,10 @@ export default function App() {
   return (
     <>
       <Header cartArray={data} updateCart={updateCart} />
-      <section className="heroSection">
+      <section className="heroSection" style={{backgroundImage:" url(./assets/hero2.jpg)"}}>
         <div className="container">
           <div className="heroTextCont">
-            <h1>Section Collection</h1>
+            <h1>Nepias Collection</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse veniam nisi fuga tempora voluptas tempore eius deserunt placeat libero accusamus.</p>
             <a href="#">Explore Collection</a>
           </div>
@@ -73,6 +73,20 @@ export default function App() {
           </div>
         </div>
       </section>
+
+
+
+      <section className="displayFeatured" style={{backgroundImage:"url(./assets/hero5.jpg)"}}>
+        <div className="container" >
+          <div className="heroTextCont">
+            <h1>Ahlun Shefa</h1>
+            <p> Accusantium facere magni ut adipisci, maxime hic labore iure vero obcaecati temporibus aliquid cupiditate eaque, quidem aspernatur vel cum fuga? Praesentium eos rerum deserunt, cupiditate illo quis.</p>
+            <a href="#">Explore Collection</a>
+          </div>
+        </div>
+      </section>
+
+
 
     </>
   )

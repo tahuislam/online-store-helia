@@ -12,7 +12,7 @@ const products = [
     }, {
         id:3,
         title:"Pera G Otailava",
-        img:"./assets/productImages/p3.jpg",
+        img:"./assets/productImages/p9.jpg",
         price: 4563
     }, {
         id:4,

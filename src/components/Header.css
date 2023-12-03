@@ -70,7 +70,6 @@ header .nav {
     top: 0;
     bottom: 0;
     left: 0;
-    background-color: var(--color-primary);
     position: fixed;
     z-index: 1;
     padding: var(--space-5) var(--container-white-space-half);
@@ -103,14 +102,23 @@ header .nav li a:hover {
     color: var(--color-accent);
 }
 
-header ul.rightNav li {
+header .rightNav{
+    display: flex;
+    align-items: center;
+    height: 70%;
+}
+
+header .rightNav li {
     display: inline;
 }
 
 header .rightNav li a {
     color: var(--color-primary);
+    line-height: 100%;
 
 }
+
+
 
 header .rightNav .bagBtn {
     color: var(--color-primary);
@@ -128,6 +136,39 @@ header .rightNav .bagBtn {
     font-size: 10px;
     font-weight: bold;
     border-radius: var(--radius-primary);
+}
+
+.headerDropDown{
+    position:absolute;
+    min-width: 170px;
+    margin: 0 0 0 -40px;
+    padding: var(--space-1) var(--space-2);
+    border-radius: var(--radius-primary);
+    color: var(--color-secondary);
+    background-color: #00000050;
+    backdrop-filter: blur(30px) saturate(150%);
+    overflow: hidden;
+    display: none;
+    transition: .2s;
+}
+
+.headerDropDown li{
+    display: block !important;
+    padding: var(--space-half) var(--space-1);
+    margin-bottom: var(--space-half);
+    border-radius: var(--radius-primary);
+}
+.headerDropDown li:hover{
+    background-color: var(--color-accent);
+    color: var(--color-secondary) !important;
+
+}
+.headerDropDown li a{
+    display: block;
+}
+
+.headerDropDownTrigger:hover > .headerDropDown{
+    display: block;
 }
 
 @media screen and (min-width:768px) {
@@ -155,13 +196,11 @@ header .rightNav .bagBtn {
         padding: 0;
         display: inline;
         border-radius: 0;
-        color: var(--color-primary);
         font-size: var(--font-size-p);
     }
 
     header .nav li a:hover {
         background-color: transparent;
-        color: var(--color-tertiary);
         text-decoration: none;
     }
 
