@@ -2,12 +2,12 @@ const products = [
     {
         id:1,
         title:"Odere Chair II",
-        img:"./assets/productImages/p1.jpg",
+        img:"https://www.versace.jp/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwce1c1c2d/original/90_1013878-1A09758_1KD40_10_CottonShirt-Clothing-Versace-online-store_0_2.jpg?sw=850&q=85&strip=true",
         price: 2344
     }, {
         id:2,
         title:"Fuerta Uiolo",
-        img:"./assets/productImages/p11.jpg",
+        img:"https://www.versace.jp/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw7ba77978/original/90_1004062-1A01703_1B000_10_GabardineWoolOvershirt--Versace-online-store_0_1.jpg?sw=550&q=85&strip=true",
         price: 3453
     }, {
         id:3,

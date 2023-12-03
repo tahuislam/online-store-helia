@@ -1,7 +1,7 @@
 import { useState } from 'react'
+import './App.css'
 import products from './enum/products.js'
 import Header from './components/Header.jsx'
-import './App.css'
 import Footer from './components/Footer.jsx'
 
 
