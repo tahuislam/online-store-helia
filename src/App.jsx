@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import products from './enum/products.js'
 import Header from './components/Header.jsx'
-import Footer from './src/components/Footer.jsx'
+import Footer from './components/Footer.jsx'
 
 
 export default function App() {
