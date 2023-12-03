@@ -1,6 +1,6 @@
 import "./Footer.css";
 
-const Footer = () => {
+function Footer() {
   return (
     <>
       <footer>
@@ -62,7 +62,7 @@ const Footer = () => {
                 <h6>Stay Updated!</h6>
                 <p>Sign up to our daily newsletter to stay updated with latest blogs, products and more!</p>
                 <form action="#">
-                    <input type="email" id="" placeholder="Put your email here" />
+                    <input type="email" placeholder="Put your email here" />
                     <input type="submit" value="Sign up" />
                 </form>
             </div>
