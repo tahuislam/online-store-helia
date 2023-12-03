@@ -22,7 +22,7 @@
   --space-9: 72px;
   --space-10: 80px;
 
-  --radius-primary: 8px;
+  --radius-primary: 9px;
 
   --font-size-huge: 4.768rem;
   --font-size-h1: 3.815rem;
@@ -48,12 +48,62 @@
   font-family: "DM Sans", sans-serif;
 }
 
+
 .container {
   width: var(--container-width);
   max-width: 1320px;
   height: 100%;
   margin: 0 auto;
 }
+
+/* FLEXBOX */
+
+.flex{
+  display: flex;
+}
+.flex.left{
+  justify-content: left;
+}
+.flex.center{
+  justify-content: center;
+}
+.flex.right{
+  justify-content: right;
+}
+.flex.space-between{
+  justify-content: space-between;
+}
+.flex.space-around{
+  justify-content: space-around;
+}
+.flex.space-evenly{
+  justify-content: space-evenly;
+}
+.flex.align-start{
+  align-items: start;
+}
+.flex.align-center{
+  align-items: center;
+}
+.flex.align-end{
+  align-items: end;
+}
+.flex.column{
+  flex-direction: column;
+}
+.flex.column-reverse{
+  flex-direction: column-reverse;
+}
+.flex.row{
+  flex-direction: row;
+}
+.flex.row-reverse{
+  flex-direction: row-reverse;
+}
+
+
+
+
 section {
   padding: var(--space-10) 0px;
 }
@@ -99,6 +149,7 @@ h5 {
 }
 h6 {
   font-size: var(--font-size-h6);
+  letter-spacing: 1px;
 }
 p {
   font-size: var(--font-size-p);
