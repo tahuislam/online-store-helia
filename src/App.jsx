@@ -42,7 +42,12 @@ export default function App() {
   return (
     <>
       <Header cartArray={data} updateCart={updateCart} />
-      <section className="heroSection" style={{backgroundImage:" url(./assets/hero.jpg)"}}>
+
+
+
+
+
+      <section className="heroSection" style={{backgroundImage:" url(/src/assets/hero.jpg)"}}>
         <div className="container">
           <div className="heroTextCont" style={{}}>
             <h1>Winter Collection</h1>
@@ -51,6 +56,11 @@ export default function App() {
           </div>
         </div>
       </section>
+
+
+
+
+
 
       <section className="productSection">
         <div className="container">
@@ -78,7 +88,10 @@ export default function App() {
 
 
 
-      <section className="displayFeatured" style={{backgroundImage:"url(./assets/hero6.jpg)"}}>
+
+
+
+      <section className="displayFeatured" style={{backgroundImage:"url(/src/assets/hero6.jpg)"}}>
         <div className="container" >
           <div className="heroTextCont">
             <h1>Knitwear Liera</h1>
@@ -87,6 +100,18 @@ export default function App() {
           </div>
         </div>
       </section>
+
+
+
+
+
+
+
+
+
+
+
+      
       <Footer/>
     </>
   )
