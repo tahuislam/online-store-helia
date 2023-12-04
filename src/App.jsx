@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './App.css'
 import products from './enum/products.js'
 import Header from './components/Header.jsx'
-import Footer from './components/Footer.jsx'
 
 export default function App() {
   const [data,setData] = useState([]);
@@ -81,13 +80,10 @@ export default function App() {
           <div className="heroTextCont">
             <h1>Ahlun Shefa</h1>
             <p> Accusantium facere magni ut adipisci, maxime hic labore iure vero obcaecati temporibus aliquid cupiditate eaque, quidem aspernatur vel cum fuga? Praesentium eos rerum deserunt, cupiditate illo quis.</p>
-            <a href="#">Explore Collection</a>
+            <a href="#">Explore Collections</a>
           </div>
         </div>
       </section>
-
-
-<Footer/>
 
     </>
   )
