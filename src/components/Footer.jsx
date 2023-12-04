@@ -5,7 +5,7 @@ function Footer(){
     return(
         <>
         <footer>
-            testing
+            testing 2
         </footer>
         </>
     );
