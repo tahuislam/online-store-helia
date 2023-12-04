@@ -42,7 +42,7 @@ export default function App() {
   return (
     <>
       <Header cartArray={data} updateCart={updateCart} />
-      <section className="heroSection" style={{backgroundImage:" url(/src/assets/hero.jpg)"}}>
+      <section className="heroSection" style={{backgroundImage:" url(./assets/hero.jpg)"}}>
         <div className="container">
           <div className="heroTextCont" style={{}}>
             <h1>Winter Collection</h1>
@@ -78,7 +78,7 @@ export default function App() {
 
 
 
-      <section className="displayFeatured" style={{backgroundImage:"url(https://images.unsplash.com/photo-1571139627661-cf707929f465?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)"}}>
+      <section className="displayFeatured" style={{backgroundImage:"url(./assets/hero6.jpg)"}}>
         <div className="container" >
           <div className="heroTextCont">
             <h1>Knitwear Liera</h1>
