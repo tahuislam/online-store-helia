@@ -150,7 +150,7 @@
     border:0;
     background-color: var(--color-secondary);
     color: var(--color-primary);
-    border-radius: var(--radius-primary);
+    border-radius: var(--space-4);
     cursor: pointer;
     transition: .2s;
     font-size: var(--font-size-h6);

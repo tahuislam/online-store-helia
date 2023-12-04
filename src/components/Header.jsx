@@ -13,7 +13,7 @@ function Header({ cartArray, updateCart }) {
     if (window.scrollY > 100) {
       setHeaderStyle(
         {
-          backgroundColor: "#000000",
+          backgroundColor: "#000000cc",
         } /*{backgroundColor: "rgba(0, 0, 0, 0.356)", backdropFilter: "blur(50px) saturate(200%)"}*/
       );
     } else {

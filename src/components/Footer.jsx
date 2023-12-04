@@ -6,6 +6,17 @@ function Footer() {
       <footer>
         <div className="container">
           <div className="footerInner flex">
+          <div className="item letterBox">
+              <h6>Stay Updated!</h6>
+              <p>
+                Sign up to our daily newsletter to stay updated with latest
+                blogs, products and more!
+              </p>
+              <form action="#">
+                <input type="email" placeholder="Put your email here" />
+                <input type="submit" value="Sign up" />
+              </form>
+            </div>
             <div className="flex space-between ulConts">
               <div className="item">
                 <h6>Categories</h6>
@@ -57,17 +68,7 @@ function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="item letterBox">
-              <h6>Stay Updated!</h6>
-              <p>
-                Sign up to our daily newsletter to stay updated with latest
-                blogs, products and more!
-              </p>
-              <form action="#">
-                <input type="email" placeholder="Put your email here" />
-                <input type="submit" value="Sign up" />
-              </form>
-            </div>
+
           </div>
 
           <ul className="footerSocials flex center">
@@ -98,8 +99,6 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <span> 3 </span> <span></span>
-        <h1>Ok done</h1>
       </footer>
     </>
   );

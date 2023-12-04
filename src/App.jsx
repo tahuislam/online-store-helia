@@ -6,7 +6,6 @@ import Footer from './components/Footer.jsx'
 
 
 
-
 export default function App() {
   const [data,setData] = useState([]);
 
@@ -43,10 +42,10 @@ export default function App() {
   return (
     <>
       <Header cartArray={data} updateCart={updateCart} />
-      <section className="heroSection" style={{backgroundImage:" url(./assets/hero2.jpg)"}}>
+      <section className="heroSection" style={{backgroundImage:" url(/src/assets/hero.jpg)"}}>
         <div className="container">
-          <div className="heroTextCont">
-            <h1>Nepias Collection</h1>
+          <div className="heroTextCont" style={{}}>
+            <h1>Winter Collection</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse veniam nisi fuga tempora voluptas tempore eius deserunt placeat libero accusamus.</p>
             <a href="#">Explore Collection</a>
           </div>
@@ -79,16 +78,15 @@ export default function App() {
 
 
 
-      <section className="displayFeatured" style={{backgroundImage:"url(./assets/hero5.jpg)"}}>
+      <section className="displayFeatured" style={{backgroundImage:"url(https://images.unsplash.com/photo-1571139627661-cf707929f465?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)"}}>
         <div className="container" >
           <div className="heroTextCont">
-            <h1>Ahlun Shefa</h1>
+            <h1>Knitwear Liera</h1>
             <p> Accusantium facere magni ut adipisci, maxime hic labore iure vero obcaecati temporibus aliquid cupiditate eaque, quidem aspernatur vel cum fuga? Praesentium eos rerum deserunt, cupiditate illo quis.</p>
-            <a href="#">Explore Collections</a>
+            <a href="#">Explore Collection</a>
           </div>
         </div>
       </section>
-
       <Footer/>
     </>
   )
