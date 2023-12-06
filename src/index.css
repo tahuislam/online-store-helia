@@ -21,6 +21,16 @@
   --space-8: 64px;
   --space-9: 72px;
   --space-10: 80px;
+  --space-11: 88px;
+  --space-12: 96px;
+  --space-13: 104px;
+  --space-14: 112px;
+  --space-15: 120px;
+  --space-16: 128px;
+  --space-17: 136px;
+  --space-18: 144px;
+  --space-19: 152px;
+  --space-20: 160px;
 
   --radius-primary: 9px;
 
@@ -105,7 +115,7 @@
 
 
 section {
-  padding: var(--space-10) 0px;
+  margin-bottom: var(--space-16);
 }
 .sectionTitle {
   margin-bottom: var(--space-7);
@@ -153,4 +163,15 @@ h6 {
 }
 p {
   font-size: var(--font-size-p);
+  margin-bottom: var(--space-4);
+}
+a{
+  text-decoration: none;
+  color: var(--color-secondary-accent);
+  transition: .4s;
+
+}
+a:hover{
+  text-decoration: none;
+  color: var(--color-accent);
 }
