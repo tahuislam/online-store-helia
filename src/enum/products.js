@@ -3,6 +3,7 @@ const products = [
         id:1,
         title:"Odere Shirt II",
         img:"/images/products/shirt1.jpg",
+        imgs:["/images/products/shirt1.jpg","/images/products/shirt1 (1).jpg","/images/products/shirt1 (2).jpg","/images/products/shirt1 (3).jpg","/images/products/shirt1 (4).jpg"],
         price: 2344
     }, {
         id:2,

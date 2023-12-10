@@ -14,6 +14,7 @@ footer {
 footer .ulConts {
   width: 100%;
   flex-direction: column;
+  padding-top: var(--space-2);
 }
 
 footer .ulConts .item {
@@ -33,6 +34,7 @@ footer .item.letterBox {
   padding: var(--space-2) var(--space-3);
   flex-grow: 1;
   width: 100%;
+  height: fit-content;
 }
 
 @media screen and (min-width: 768px) {

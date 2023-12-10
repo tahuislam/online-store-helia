@@ -1,0 +1,73 @@
+.grid {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-8) var(--space-2);
+}
+
+@media screen and (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+/* @media screen and (min-width:1320px) {
+      .grid{
+          grid-template-columns: repeat(5,1fr);
+      }
+  } */
+
+.grid .gridItem {
+  width: 100%;
+  overflow: hidden;
+}
+
+.grid .gridItem .gridItemImgCont {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: var(--space-1);
+}
+
+.grid .gridItem img {
+  width: 100%;
+  height: auto;
+  transition: 0.4s ease-out;
+  cursor: pointer;
+}
+
+.grid .gridItem img:hover {
+  scale: 1.1;
+}
+.grid .gridItem .priceCont {
+  font-size: 14px;
+  margin-top: var(--space-half);
+}
+.grid .gridItem .sign {
+  margin-right: 1px;
+}
+.grid .gridItem .buttonPrimaryInvert {
+  border: 0;
+  padding: 8px 16px;
+  background-color: var(--color-);
+  color: var(--color-secondary);
+  border-radius: var(--radius-primary);
+  font-weight: normal;
+  border: var(--color-secondary) solid 1px;
+  margin-top: var(--space-3);
+  cursor: pointer;
+  z-index: 1;
+  transition: 0.2s;
+}
+.grid .gridItem .buttonPrimaryInvert:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+}
+.grid .gridItem .footerRow {
+  justify-content: space-between;
+  align-items: baseline;
+}

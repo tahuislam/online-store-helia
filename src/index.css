@@ -7,7 +7,7 @@
   --color-tertiary: #868686;
   --color-accent: #e7be97;
   --color-secondary-accent: #2c87ff;
-  --color-error: crimson;
+  --color-danger: crimson;
 
   --space-quarter: 2px;
   --space-half: 4px;
@@ -174,4 +174,10 @@ a{
 a:hover{
   text-decoration: none;
   color: var(--color-accent);
+}
+
+
+img{
+  display: block;
+  width: 100%;
 }

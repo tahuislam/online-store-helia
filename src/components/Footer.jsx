@@ -98,6 +98,7 @@ function Footer() {
               </a>
             </li>
           </ul>
+          <div style={{textAlign:"center",marginTop:"var(--space-10)"}} className="credit">This website is developed by <a href="https://github.com/tahuislam" target="blank">@tahuislam</a></div>
         </div>
       </footer>
     </>

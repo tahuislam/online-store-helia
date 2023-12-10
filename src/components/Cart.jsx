@@ -10,16 +10,21 @@ export default function Cart({ cartArray, updateCart,cartStyle,toggleCart }) {
         return (
             (cartArray || []).map((item, idx) => (
                 <li key={idx}>
+                        <button className=" cartRemoveBtn" onClick={()=>updateCart("rmv",{id:item.id})}><i className='bi bi-dash-circle'></i></button>
+
                     <div className="cartItemSection1">
                         <div className="cartItemImgCont">
                         <img src={item.img} alt="" />
                         </div>
                         <div className="cartItemInfo">
+                            <div className="cartItemInfoHeader">
                             <div>{item.title}</div>
                             <div className="cartItemPrice">
                                 <span style={{ marginRight: "2px" }}>$</span>
                                 <span>{item.price}</span>
                             </div>
+                            </div>
+                            
                         </div>
                     </div>
                     <div className="cartItemSection2">
@@ -28,14 +33,14 @@ export default function Cart({ cartArray, updateCart,cartStyle,toggleCart }) {
             title:item.title,
             img:item.img,
             price:item.price
-        })}><i className="bi bi-plus"></i></button>
+        })}><i className="bi bi-chevron-up"></i></button>
                         <input type="text" readOnly value={item.qty} />
                         <button onClick={()=>updateCart("dec",{
             id:item.id,
             title:item.title,
             img:item.img,
             price:item.price
-        })}><i className="bi bi-dash"></i></button>
+        })}><i className="bi bi-chevron-down"></i></button>
                     </div>
                 </li>
             ))
