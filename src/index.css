@@ -7,7 +7,14 @@
   --color-tertiary: #868686;
   --color-accent: #e7be97;
   --color-secondary-accent: #2c87ff;
-  --color-danger: crimson;
+
+
+
+
+  --color-danger-pure-1: rgba(220, 20, 60, 0.048);
+  --color-danger: #dc143c;
+
+
 
   --space-quarter: 2px;
   --space-half: 4px;
@@ -167,13 +174,12 @@ p {
 }
 a{
   text-decoration: none;
-  color: var(--color-secondary-accent);
+  color: var(--color-accent);
   transition: .4s;
-
+  
 }
 a:hover{
-  text-decoration: none;
-  color: var(--color-accent);
+  color: var(--color-secondary-accent);
 }
 
 
