@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 import products from "../enum/products";
 import ViewProduct from "./ViewProduct";
@@ -6,7 +7,9 @@ import "./Products.css";
 function Products({ updateCart }) {
   const [productToShow, setProductToShow] = useState([]);
 
-  (productToShow.length===1)?(document.body.style.overflow = "hidden"):(document.body.style.overflow = "auto")
+  productToShow.length === 1
+    ? (document.body.style.overflow = "hidden")
+    : (document.body.style.overflow = "auto");
 
   return (
     <>
