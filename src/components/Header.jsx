@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Header.css";
 import Cart from "./Cart";
-
+import { Link } from "react-router-dom";
 let burgerStatus = false;
 let cartStatus = false;
 
@@ -56,24 +56,25 @@ function Header({ cartArray, updateCart }) {
             <i className="bi bi-x"></i>
           </button>
           <li>
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">
-              Categories
-            </a>
+            <Link to="/products/all">All Products</Link>
           </li>
           <li>
-            <a href="#">Shop</a>
+          <Link to="/all-products">Categories</Link>
+          
           </li>
           <li>
-            <a href="#">Featured</a>
+          <Link to="/all-products">Featured</Link>
           </li>
           <li>
-            <a href="#">Contact</a>
+          <Link to="/contact">Contact</Link>
+
           </li>
           <li>
-            <a href="#">About</a>
+          <Link to="/about">About</Link>
+
           </li>
         </ul>
         <ul className="rightNav">

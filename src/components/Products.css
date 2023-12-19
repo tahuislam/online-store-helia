@@ -3,7 +3,7 @@
   height: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: var(--space-8) var(--space-2);
+  gap: var(--space-4) var(--space-2);
 }
 
 @media screen and (min-width: 768px) {

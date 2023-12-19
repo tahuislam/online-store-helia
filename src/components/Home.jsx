@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
+import './Home.css'
 import Products from "./Products";
-
 const Home = ({ updateCart }) => {
   return (
     <main>

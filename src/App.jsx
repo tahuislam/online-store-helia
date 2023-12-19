@@ -1,4 +1,4 @@
-import "./App.css";
+// import "./App.css";
 import Products from "./components/Products.jsx";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import DeafultLayout from "./layout/DeafultLayout.jsx";
@@ -56,7 +56,7 @@ export default function App() {
           element: <Home updateCart={updateCart} />,
         },
         {
-          path: "products",
+          path: "products/all",
           element: <Products updateCart={updateCart} />,
         },
       ],

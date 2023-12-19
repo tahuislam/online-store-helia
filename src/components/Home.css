@@ -1,0 +1,83 @@
+.heroSection,
+.displayFeatured {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 0.1px;
+  overflow: hidden;
+}
+
+.heroSection .container,
+.displayFeatured .container {
+  display: flex;
+  align-items: center;
+}
+
+.heroSection {
+  height: 100vh;
+}
+
+.displayFeatured {
+  height: 80vh;
+}
+
+.heroTextCont {
+  color: var(--color-primary);
+  max-width: 500px;
+}
+
+.heroTextCont h1 {
+  line-height: 110%;
+  margin-bottom: var(--space-3);
+}
+
+.heroTextCont a {
+  text-decoration: none;
+  color: var(--color-primary);
+  padding: 8px 16px;
+  display: inline-block;
+  border: 2px solid var(--color-primary);
+  border-radius: var(--radius-primary);
+  margin-top: var(--space-3);
+  transition: 0.2s;
+  font-weight: bold;
+  font-size: var(--font-size-h6);
+}
+
+.heroTextCont a:hover {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+section.twoSideDisplay{
+}
+section.twoSideDisplay .flex {
+  flex-direction: column;
+}
+section.twoSideDisplay img {
+  width: 100%;
+  display: block;
+}
+section .imgDisplay {
+  width: 100%;
+  max-width: none;
+  max-width: none;
+  margin-top: var(--space-4);
+}
+
+@media screen and (min-width: 768px) {
+  section.twoSideDisplay .flex {
+    flex-direction: row;
+  gap: var(--space-6);
+
+  }
+    section .textDisplay {
+    min-width: 250px;
+    max-width: 500px;
+  }
+  section .imgDisplay {
+    min-width: 250px;
+    max-width: 400px;
+    margin-top: 0;
+  }
+
+}
