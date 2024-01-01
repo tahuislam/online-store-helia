@@ -62,19 +62,16 @@ function Header({ cartArray, updateCart }) {
             <Link to="/products/all">All Products</Link>
           </li>
           <li>
-          <Link to="/all-products">Categories</Link>
-          
+            <Link to="/categories">Categories</Link>
           </li>
           <li>
-          <Link to="/all-products">Featured</Link>
+            <Link to="/products/featured">Featured</Link>
           </li>
           <li>
-          <Link to="/contact">Contact</Link>
-
+            <Link to="/contact">Contact</Link>
           </li>
           <li>
-          <Link to="/about">About</Link>
-
+            <Link to="/about">About</Link>
           </li>
         </ul>
         <ul className="rightNav">

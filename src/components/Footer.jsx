@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 function Footer() {
@@ -22,16 +23,16 @@ function Footer() {
                 <h6>Categories</h6>
                 <ul>
                   <li>
-                    <a href="#">Shirts</a>
+                    <Link to="/products/shirts">Shirts</Link>
                   </li>
                   <li>
-                    <a href="#">Jeans</a>
+                    <Link to="/products/jeans">Jeans</Link>
                   </li>
                   <li>
-                    <a href="#">Trousers</a>
+                    <Link to="/products/jackets">Jackets</Link>
                   </li>
                   <li>
-                    <a href="#">Watches</a>
+                    <Link to="/collections/winter">Winter Collection</Link>
                   </li>
                 </ul>
               </div>
@@ -39,16 +40,16 @@ function Footer() {
                 <h6>Help</h6>
                 <ul>
                   <li>
-                    <a href="#">Contact Us</a>
+                    <Link to="#">Contact Us</Link>
                   </li>
                   <li>
-                    <a href="#">Privacy Policy</a>
+                    <Link to="#">Privacy Policy</Link>
                   </li>
                   <li>
-                    <a href="#">Terms Of Use</a>
+                    <Link to="#">Terms Of Use</Link>
                   </li>
                   <li>
-                    <a href="#">Locations</a>
+                    <Link to="#">Locations</Link>
                   </li>
                 </ul>
               </div>
@@ -57,13 +58,13 @@ function Footer() {
                 <h6>About</h6>
                 <ul>
                   <li>
-                    <a href="#">Our Story</a>
+                    <Link to="/about">Our Story</Link>
                   </li>
                   <li>
-                    <a href="#">Partners</a>
+                    <Link to="/about">Partners</Link>
                   </li>
                   <li>
-                    <a href="#">Our Process</a>
+                    <Link to="/about">Our Process</Link>
                   </li>
                 </ul>
               </div>

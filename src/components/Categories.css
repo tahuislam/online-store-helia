@@ -1,0 +1,10 @@
+.categoryCont{
+    height: 250px !important;
+    padding: var(--space-5);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.categoryCont a{
+    margin-top: var(--space-2);
+}

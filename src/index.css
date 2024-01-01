@@ -65,7 +65,9 @@
   font-family: "DM Sans", sans-serif;
 }
 
-
+html{
+  scroll-behavior: smooth;
+}
 .container {
   width: var(--container-width);
   max-width: 1320px;
