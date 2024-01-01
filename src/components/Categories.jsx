@@ -17,25 +17,25 @@ function Categories({ pageTitle }) {
         </div>
 
 
-          <div className="container categoryCont" style={{backgroundImage:"url(/public/assets/cat-jackets.jpg)"}}>
+          <div className="container categoryCont" style={{backgroundImage:"url(/assets/cat-jackets.jpg)"}}>
             <div className="heroTextCont">
               <h5>Winter Collection</h5>
               <Link to="/collections/winter">Explore</Link>
             </div>
           </div>
-          <div className="container categoryCont" style={{backgroundImage:"url(/public/assets/cat-shirt.jpg)"}}>
+          <div className="container categoryCont" style={{backgroundImage:"url(/assets/cat-shirt.jpg)"}}>
             <div className="heroTextCont">
               <h5>Shirts</h5>
               <Link to="/products/shirts">Explore</Link>
             </div>
           </div>
-          <div className="container categoryCont" style={{backgroundImage:"url(/public/assets/cat-jeans.jpg)"}}>
+          <div className="container categoryCont" style={{backgroundImage:"url(/assets/cat-jeans.jpg)"}}>
             <div className="heroTextCont">
               <h5>Jeans</h5>
               <Link to="/products/jeans">Explore</Link>
             </div>
           </div>
-          <div className="container categoryCont" style={{backgroundImage:"url(/public/assets/cat-jackets2.jpg)"}}>
+          <div className="container categoryCont" style={{backgroundImage:"url(/assets/cat-jackets2.jpg)"}}>
             <div className="heroTextCont">
               <h5>Jackets</h5>
               <Link to="/products/jackets">Explore</Link>
