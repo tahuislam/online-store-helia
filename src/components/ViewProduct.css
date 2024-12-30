@@ -95,11 +95,11 @@
     line-height: 100%;
     cursor: pointer;
     transition: .4s;
-    background-color: var(--color-accent);
-    color: var(--color-secondary);
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
 }
 .secondaryCloseBtn:hover{
-    background-color: var(--color-secondary);
+    background-color: var(--color-tertiary);
     color: var(--color-primary);
 }
 
