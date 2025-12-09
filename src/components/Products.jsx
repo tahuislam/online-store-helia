@@ -41,7 +41,7 @@ function Products({ updateCart, cat, pageTitle, inHome }) {
       {productToShow.length === 1 ? (
         <ViewProduct
           productToShow={productToShow[0]}
-          setProductToShow={setProductToShow}
+          setProductToShow={setProductToShow} updateCart={updateCart} itemRender={itemRender}
         />
       ) : (
         console.log(productToShow)

@@ -50,7 +50,7 @@
 .grid .gridItem .sign {
   margin-right: 1px;
 }
-.grid .gridItem .buttonPrimaryInvert {
+/*.grid .gridItem*/ .buttonPrimaryInvert {
   border: 0;
   padding: 8px 16px;
   background-color: var(--color-);
@@ -63,7 +63,7 @@
   z-index: 1;
   transition: 0.2s;
 }
-.grid .gridItem .buttonPrimaryInvert:hover {
+/*.grid .gridItem*/ .buttonPrimaryInvert:hover {
   background-color: var(--color-secondary);
   color: var(--color-primary);
 }

@@ -55,6 +55,7 @@
 
 .viewProductToggle{
     list-style-type: none;
+    margin-top: var(--space-3);
 }
 
 .viewProductToggle li{
